@@ -20,11 +20,11 @@ require (
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1
 	github.com/dvyukov/go-fuzz v0.0.0-20210602112143-b1f3d6f4ef4e
 	github.com/go-errors/errors v1.0.1
-	github.com/golang/protobuf v1.5.2
+	github.com/golang/protobuf v1.5.3
 	github.com/gorilla/websocket v1.4.2
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
-	github.com/grpc-ecosystem/grpc-gateway/v2 v2.5.0
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.11.3
 	github.com/jackc/pgx/v4 v4.13.0
 	github.com/jackpal/gateway v1.0.5
 	github.com/jackpal/go-nat-pmp v0.0.0-20170405195558-28a68d0c24ad
@@ -47,20 +47,19 @@ require (
 	github.com/ltcsuite/ltcd v0.0.0-20190101042124-f37f8bf35796
 	github.com/miekg/dns v1.1.43
 	github.com/prometheus/client_golang v1.11.0
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.3
 	github.com/tv42/zbase32 v0.0.0-20160707012821-501572607d02
 	github.com/urfave/cli v1.22.4
 	gitlab.com/yawning/bsaes.git v0.0.0-20190805113838-0a714cd429ec // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.5.0
 	go.etcd.io/etcd/client/v3 v3.5.0
-	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
-	golang.org/x/net v0.0.0-20211015210444-4f30a5c0130f
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1
-	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
-	golang.org/x/tools v0.1.8 // indirect
-	google.golang.org/grpc v1.38.0
-	google.golang.org/protobuf v1.26.0
+	golang.org/x/crypto v0.0.0-20211108221036-ceb1ce70b4fa
+	golang.org/x/net v0.9.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/term v0.7.0
+	golang.org/x/time v0.3.0
+	google.golang.org/grpc v1.56.3
+	google.golang.org/protobuf v1.30.0
 	gopkg.in/errgo.v1 v1.0.1 // indirect
 	gopkg.in/macaroon-bakery.v2 v2.0.1
 	gopkg.in/macaroon.v2 v2.0.0
